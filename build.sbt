@@ -25,6 +25,10 @@ libraryDependencies ++= {
     "net.liftweb" %% "lift-webkit" % liftVersion % "compile",
     "net.liftweb" %% "lift-mapper" % liftVersion % "compile",
     "net.liftmodules" %% "fobo_2.6" % "1.5" % "compile",
+    "net.liftmodules"   % "imaging_2.10" % "2.5-M4-1.2" % "compile",
+    "net.liftmodules"   % "machine_2.10" %"2.5-M4-1.2"  % "compile",
+    "net.liftmodules"   % "mongoauth_2.10" %"2.5-M4-0.3"  % "compile",
+    "net.liftmodules"   % "widgets_2.6_2.10" %"1.3" % "compile",
     "org.eclipse.jetty" % "jetty-webapp" % "8.1.17.v20150415" % "container,test",
     "org.eclipse.jetty" % "jetty-plus" % "8.1.17.v20150415" % "container,test", // For Jetty Config
     "org.eclipse.jetty.orbit" % "javax.servlet" % "3.0.0.v201112011016" % "container,test" artifacts Artifact("javax.servlet", "jar", "jar"),
