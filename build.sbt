@@ -4,7 +4,7 @@ version := "0.0.5"
 
 organization := "com.wong"
 
-scalaVersion := "2.11.7"
+scalaVersion := "2.10.6"
 
 resolvers ++= Seq("snapshots" at "https://oss.sonatype.org/content/repositories/snapshots",
   "staging" at "https://oss.sonatype.org/content/repositories/staging",
