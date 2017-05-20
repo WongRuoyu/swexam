@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.wong"
+		module="swexam_sjs0.6_2.12"
+		revision="0.0.5"
+		conf="plugin"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, phantom-js-jetty, container"
+		date="20170415090443"/>
+	<dependencies>
+		<module organisation="org.scalamacros" name="paradise_2.12.0">
+			<revision name="2.1.0" status="release" pubdate="20161102124601" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scalamacros/paradise" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html"/>
+				<metadata-artifact status="no" details="" size="3049" time="0" location="D:\sbt\cache\org.scalamacros\paradise_2.12.0\ivy-2.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalamacros/paradise_2.12.0/2.1.0/paradise_2.12.0-2.1.0.pom"/>
+				<caller organisation="com.wong" name="swexam_sjs0.6_2.12" conf="plugin" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="0.0.5"/>
+				<artifacts>
+					<artifact name="paradise_2.12.0" type="jar" ext="jar" status="no" details="" size="148514" time="0" location="D:\sbt\cache\org.scalamacros\paradise_2.12.0\jars\paradise_2.12.0-2.1.0.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-js" name="scalajs-compiler_2.12.0">
+			<revision name="0.6.14" status="release" pubdate="20161221051632" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" extra-info.apiURL="http://www.scala-js.org/api/scalajs-compiler/0.6.14/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD New" url="https://github.com/scala-js/scala-js/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="3308" time="0" location="D:\sbt\cache\org.scala-js\scalajs-compiler_2.12.0\ivy-0.6.14.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.12.0/0.6.14/scalajs-compiler_2.12.0-0.6.14.pom"/>
+				<caller organisation="com.wong" name="swexam_sjs0.6_2.12" conf="plugin" rev="0.6.14" rev-constraint-default="0.6.14" rev-constraint-dynamic="0.6.14" callerrev="0.0.5"/>
+				<artifacts>
+					<artifact name="scalajs-compiler_2.12.0" type="jar" ext="jar" status="no" details="" size="990874" time="0" location="D:\sbt\cache\org.scala-js\scalajs-compiler_2.12.0\jars\scalajs-compiler_2.12.0-0.6.14.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-compiler">
+			<revision name="2.12.0" status="release" pubdate="20161029070907" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="3125" time="0" location="D:\sbt\cache\org.scala-lang\scala-compiler\ivy-2.12.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.0/scala-compiler-2.12.0.pom"/>
+				<caller organisation="org.scalamacros" name="paradise_2.12.0" conf="default, compile, runtime, master" rev="2.12.0" rev-constraint-default="2.12.0" rev-constraint-dynamic="2.12.0" callerrev="2.1.0"/>
+				<caller organisation="org.scala-js" name="scalajs-compiler_2.12.0" conf="default, compile, runtime, master" rev="2.12.0" rev-constraint-default="2.12.0" rev-constraint-dynamic="2.12.0" callerrev="0.6.14"/>
+				<artifacts>
+					<artifact name="scala-compiler" type="jar" ext="jar" status="no" details="" size="10062641" time="0" location="D:\sbt\cache\org.scala-lang\scala-compiler\jars\scala-compiler-2.12.0.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.12">
+			<revision name="1.0.5" status="release" pubdate="20161029071007" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3175" time="0" location="D:\sbt\cache\org.scala-lang.modules\scala-xml_2.12\ivy-1.0.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5.pom"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="1.0.5" rev-constraint-default="1.0.5" rev-constraint-dynamic="1.0.5" callerrev="2.12.0"/>
+				<artifacts>
+					<artifact name="scala-xml_2.12" type="bundle" ext="jar" status="no" details="" size="548430" time="0" location="D:\sbt\cache\org.scala-lang.modules\scala-xml_2.12\bundles\scala-xml_2.12-1.0.5.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.12.0" status="release" pubdate="20161029070451" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.0/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2860" time="0" location="D:\sbt\cache\org.scala-lang\scala-reflect\ivy-2.12.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.0/scala-reflect-2.12.0.pom"/>
+				<caller organisation="org.scalamacros" name="paradise_2.12.0" conf="default, compile, runtime, master" rev="2.12.0" rev-constraint-default="2.12.0" rev-constraint-dynamic="2.12.0" callerrev="2.1.0"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="2.12.0" rev-constraint-default="2.12.0" rev-constraint-dynamic="2.12.0" callerrev="2.12.0"/>
+				<caller organisation="org.scala-js" name="scalajs-compiler_2.12.0" conf="default, compile, runtime, master" rev="2.12.0" rev-constraint-default="2.12.0" rev-constraint-dynamic="2.12.0" callerrev="0.6.14"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3574999" time="0" location="D:\sbt\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.12.0.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.0" status="release" pubdate="20161029070730" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.0/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2685" time="0" location="D:\sbt\cache\org.scala-lang\scala-library\ivy-2.12.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.0/scala-library-2.12.0.pom"/>
+				<caller organisation="org.scalamacros" name="paradise_2.12.0" conf="default, compile, runtime, master" rev="2.12.0" rev-constraint-default="2.12.0" rev-constraint-dynamic="2.12.0" callerrev="2.1.0"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="2.12.0" rev-constraint-default="2.12.0" rev-constraint-dynamic="2.12.0" callerrev="2.12.0"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.12.0" rev-constraint-default="2.12.0" rev-constraint-dynamic="2.12.0" callerrev="2.12.0"/>
+				<caller organisation="org.scala-lang.modules" name="scala-xml_2.12" conf="compile, runtime" rev="2.12.0" rev-constraint-default="2.12.0" rev-constraint-dynamic="2.12.0" callerrev="1.0.5"/>
+				<caller organisation="org.scala-js" name="scalajs-compiler_2.12.0" conf="default, compile, runtime, master" rev="2.12.0" rev-constraint-default="2.12.0" rev-constraint-dynamic="2.12.0" callerrev="0.6.14"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5451017" time="0" location="D:\sbt\cache\org.scala-lang\scala-library\jars\scala-library-2.12.0.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

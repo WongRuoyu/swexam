@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: net.liftmodules:fobo-font-awesome_2.6_2.10:1.5:jar">
+    <CLASSES>
+      <root url="jar://D:/sbt/cache/net.liftmodules/fobo-font-awesome_2.6_2.10/jars/fobo-font-awesome_2.6_2.10-1.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/sbt/cache/net.liftmodules/fobo-font-awesome_2.6_2.10/srcs/fobo-font-awesome_2.6_2.10-1.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

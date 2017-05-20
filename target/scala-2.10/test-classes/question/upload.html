@@ -1,0 +1,19 @@
+<!DOCTYPE html xmlns="http://www.w3.org/1999/xhtml" xmlns:lift="http://liftweb.net/">
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>上传试题</title>
+</head>
+<body data-lift-content-id="main">
+<div id="main" data-lift="surround?with=default;at=content">
+
+    <form data-lift="QuestionUpload.upload?form=post;multipart=true">
+        <label for="file">
+            Select a file:<input id="file">
+            <input type="submit" value="Submit">
+        </label>
+    </form>
+    <span data-lift="Msg?id=uploadMsgs"/>
+</div>
+</body>
+</html>

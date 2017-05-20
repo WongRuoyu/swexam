@@ -1,0 +1,4 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(D:\itellJworks\swexam\src\main\resources\logback.xml,D:\itellJworks\swexam\target\scala-2.10\classes\logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(D:\itellJworks\swexam\src\main\resources\props,D:\itellJworks\swexam\target\scala-2.10\classes\props)[0m
+[0m[[0mdebug[0m] [0m	(D:\itellJworks\swexam\src\main\resources\props\default.props,D:\itellJworks\swexam\target\scala-2.10\classes\props\default.props)[0m

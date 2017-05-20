@@ -12,8 +12,8 @@ import net.liftweb.util.FieldError
 import net.liftweb.http.SHtml
 
 /**
- * Created by Wong on 15-8-12.
- */
+  * Created by Wong on 15-8-12.
+  */
 class Exam extends LongKeyedMapper[Exam] with CreatedUpdated with IdPK {
   override def getSingleton: KeyedMetaMapper[Long, Exam] = Exam
 
@@ -113,4 +113,13 @@ object Exam extends Exam with LongKeyedMetaMapper[Exam] {
   override def dbTableName = "exams"
 
   private def unique_?(name: String) = Exam.findAll(By(Exam.name, name)).isEmpty
+
+  override def dbAddTable: Box[() => Unit] = Full(initTable)
+
+  private def initTable() {
+    val names = "exams" :: "exam2" :: "exam3" :: Nil
+    for (name <- names) {
+      Exam.create.name(name).save()
+    }
+  }
 }

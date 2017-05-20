@@ -1,0 +1,6 @@
+#FileLock
+#Sat May 20 15:33:13 CST 2017
+hostName=192.168.3.3
+id=15c24c6483a8e1528ba20a2319be42bd9ac7175574d
+method=file
+server=192.168.3.3\:50196

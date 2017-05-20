@@ -1,0 +1,22 @@
+<!DOCTYPE html xmlns="http://www.w3.org/1999/xhtml" xmlns:lift="http://liftweb.net/">
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Create a new exam</title>
+    <script id="jquery" src="/classpath/fobo/jquery.js" type="text/javascript"></script>
+</head>
+<body data-lift-content-id="main">
+<div id="main" data-lift="surround?with=default;at=content">
+
+    <link data-lift="head" type="text/css" rel="stylesheet"
+          href="/assets/jquery-easyui-1.4.3/themes/mobile.css">
+    <script data-lift="tail" src="/assets/jquery-easyui-1.4.3/jquery.easyui.min.js"></script>
+    <div data-lift="ExamSnippet.add?form=post;class=form-horizontal"></div>
+
+
+</div>
+</body>
+<script>
+    $(".timestamp").datetimebox({dateFormat: "yy-mm-dd"})
+</script>
+</html>

@@ -18,30 +18,29 @@ import scala.xml.NodeSeq
 import net.liftweb.db.DBLogEntry
 
 /**
- * A class that's instantiated early and run.  It allows the application
- * to modify lift's environment
- */
+  * A class that's instantiated early and run.  It allows the application
+  * to modify lift's environment
+  */
 class Boot extends Logger {
   val logger = Logger(classOf[Boot])
 
   def boot {
-    if (!DB.jndiJdbcConnAvailable_?) {
-      sys.props.put("h2.implicitRelativePath", "true")
-      val vendor =
-        new StandardDBVendor(Props.get("db.driver") openOr "org.h2.Driver",
-          Props.get("db.url") openOr
-            "jdbc:h2:lift_proto.db;AUTO_SERVER=TRUE",
-          Props.get("db.user"), Props.get("db.password"))
 
-      LiftRules.unloadHooks.append(vendor.closeAllConnections_! _)
-      DB.defineConnectionManager(util.DefaultConnectionIdentifier, vendor)
-    }
+    sys.props.put("h2.implicitRelativePath", "true")
+    val vendor =
+      new StandardDBVendor("org.h2.Driver", "jdbc:h2:swexam;AUTO_SERVER=TRUE", Empty, Empty)
+    LiftRules.unloadHooks.append(vendor.closeAllConnections_! _)
+    DB.defineConnectionManager(util.DefaultConnectionIdentifier, vendor)
+
 
     // Use Lift's Mapper ORM to populate the database
     // you don't need to use Mapper to use Lift... use
     // any ORM you want
+    /*        Schemifier.schemify(true, Schemifier.infoF _,
+              User, KnowledgePoint, Question, UserQuestions, KnowledgePoint)*/
+
     Schemifier.schemify(true, Schemifier.infoF _,
-      User, KnowledgePoint, Question, UserQuestions, QuestionKnowledgepts, Exam, ExamHistory, ExamAssignment)
+      User, KnowledgePoint, ExamAssignment, Question, UserQuestions, QuestionKnowledgepts, Exam, ExamHistory)
 
     //Log数据库
     DB.addLogFunc {
@@ -51,6 +50,14 @@ class Boot extends Logger {
           case DBLogEntry(stmt, duration) => this.debug("%s in %d ms".format(stmt, duration))
         }
       }
+    }
+    if (Props.devMode || Props.testMode) {
+      LiftRules.liftRequest.append({
+        case r if (r.path.partPath match {
+          case "console" :: _ => true
+          case _ => false
+        }) => false
+      })
     }
 
     // where to search snippet
@@ -83,9 +90,10 @@ class Boot extends Logger {
     </xml:group>
 
 
-
     SiteMap.enforceUniqueLinks = true
+
     def sitemapMutators = User.sitemapMutator
+
     //The SiteMap is built in the Site object bellow
     LiftRules.setSiteMapFunc(() => sitemapMutators(Site.sitemap))
 
@@ -127,13 +135,13 @@ class Boot extends Logger {
     //将默认的InMemFileParamHolde该写为OnDiskFileParamHolder。
     LiftRules.handleMimeFile = OnDiskFileParamHolder.apply
 
-    //配置开发模式下自动登录的用户
-    def testUserLogin() {
-      val testUser = User.find(By(User.firstName, "fcs2"))
-      testUser.foreach(User.logUserIn(_))
-    }
+    /*    //配置开发模式下自动登录的用户
+        def testUserLogin() {
+          val testUser = User.find(By(User.firstName, "fcs2"))
+          testUser.foreach(User.logUserIn(_))
+        }*/
 
-    User.autologinFunc = if (Props.devMode) Full(testUserLogin _) else Empty
+    //    User.autologinFunc = if (Props.devMode) Full(testUserLogin _) else Empty
   }
 
   object Site {

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: com.thoughtworks.enableIf:enableif_2.10:1.1.4:jar">
+    <CLASSES>
+      <root url="jar://D:/sbt/cache/com.thoughtworks.enableIf/enableif_2.10/jars/enableif_2.10-1.1.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/sbt/cache/com.thoughtworks.enableIf/enableif_2.10/srcs/enableif_2.10-1.1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

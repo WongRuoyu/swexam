@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: com.lihaoyi:scalatags_sjs0.6_2.10:0.6.2:jar">
+    <CLASSES>
+      <root url="jar://D:/sbt/cache/com.lihaoyi/scalatags_sjs0.6_2.10/jars/scalatags_sjs0.6_2.10-0.6.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/sbt/cache/com.lihaoyi/scalatags_sjs0.6_2.10/srcs/scalatags_sjs0.6_2.10-0.6.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

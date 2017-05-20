@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: com.chuusai:shapeless_2.10:2.3.2:jar">
+    <CLASSES>
+      <root url="jar://D:/sbt/cache/com.chuusai/shapeless_2.10/bundles/shapeless_2.10-2.3.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/sbt/cache/com.chuusai/shapeless_2.10/srcs/shapeless_2.10-2.3.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

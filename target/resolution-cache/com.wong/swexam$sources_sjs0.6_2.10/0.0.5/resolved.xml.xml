@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="com.wong"
+		module="swexam$sources_sjs0.6_2.10"
+		revision="0.0.5"
+		status="integration"
+		publication="20170520151039"
+	/>
+	<configurations>
+		<conf name="default" visibility="public" description=""/>
+	</configurations>
+	<publications>
+	</publications>
+	<dependencies>
+		<dependency org="org.eclipse.jgit" name="org.eclipse.jgit.ui" rev="3.7.0.201502260915-r" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="org.eclipse.jgit.ui" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="apply-macro" rev="0.13.11" transitive="false" conf="default->compile,default(compile)">
+			<artifact name="apply-macro" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.slf4j" name="slf4j-simple" rev="1.7.12" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="slf4j-simple" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="api" rev="0.13.11" transitive="false" conf="default->compile,default(compile)">
+			<artifact name="api" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.apache.httpcomponents" name="httpclient" rev="4.3.6" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="httpclient" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.osgi" name="org.osgi.core" rev="4.3.1" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="org.osgi.core" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.fusesource.leveldbjni" name="leveldbjni-linux64" rev="1.5" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="leveldbjni-linux64" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.googlecode.javaewah" name="JavaEWAH" rev="0.7.9" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="JavaEWAH" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.eclipse.jetty" name="jetty-plus" rev="9.1.0.v20131115" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="jetty-plus" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="args4j" name="args4j" rev="2.0.26" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="args4j" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.apache.tomcat.embed" name="tomcat-embed-logging-juli" rev="7.0.22" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="tomcat-embed-logging-juli" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="commons-logging" name="commons-logging" rev="1.1.3" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="commons-logging" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.apache.tomcat.embed" name="tomcat-embed-core" rev="7.0.22" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="tomcat-embed-core" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.apache.commons" name="commons-lang3" rev="3.1" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="commons-lang3" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="junit" name="junit" rev="4.10" transitive="false" conf="default->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="junit" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.eclipse.jetty" name="jetty-jndi" rev="9.1.0.v20131115" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="jetty-jndi" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.apache.commons" name="commons-compress" rev="1.9" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="commons-compress" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.fusesource.jansi" name="jansi" rev="1.11" transitive="false" conf="default->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="jansi" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.eclipse.jetty" name="jetty-http" rev="9.1.0.v20131115" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="jetty-http" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.webjars" name="npm" rev="2.11.2" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="npm" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.tristanhunt" name="knockoff_2.10" rev="0.8.1" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="knockoff_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scalamacros" name="quasiquotes_2.10" rev="2.0.1" transitive="false" conf="default->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="quasiquotes_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.typesafe.akka" name="akka-actor_2.10" rev="2.3.11" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="akka-actor_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.fusesource.leveldbjni" name="leveldbjni-osx" rev="1.5" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="leveldbjni-osx" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="serialization_2.10" rev="0.1.2" transitive="false" conf="default->default,compile,runtime,default(compile),master">
+			<artifact name="serialization_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-lang.modules" name="scala-pickling_2.10" rev="0.10.1" transitive="false" conf="default->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="scala-pickling_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="classfile" rev="0.13.11" transitive="false" conf="default->compile,default(compile)">
+			<artifact name="classfile" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="io.spray" name="spray-json_2.10" rev="1.3.2" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="spray-json_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.apache.tomcat.embed" name="tomcat-embed-jasper" rev="7.0.22" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="tomcat-embed-jasper" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-js" name="scalajs-ir_2.10" rev="0.6.14" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master" info.apiURL="http://www.scala-js.org/api/scalajs-ir/0.6.14/">
+			<artifact name="scalajs-ir_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="logic" rev="0.13.11" transitive="false" conf="default->compile,default(compile)">
+			<artifact name="logic" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="jfree" name="jcommon" rev="1.0.12" transitive="false" conf="default->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="jcommon" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.hamcrest" name="hamcrest-core" rev="1.1" transitive="false" conf="default->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="hamcrest-core" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="actions" rev="0.13.11" transitive="false" conf="default->compile,default(compile)">
+			<artifact name="actions" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.fusesource.leveldbjni" name="leveldbjni" rev="1.7" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="leveldbjni" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="interface" rev="0.13.11" transitive="false" conf="default->compile,default(compile)" component="xsbti">
+			<artifact name="interface" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.typesafe.sbt" name="sbt-git" rev="0.8.5" transitive="false" conf="default->compile,default(compile)" scalaVersion="2.10" sbtVersion="0.13">
+			<artifact name="sbt-git" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scalaz" name="scalaz-effect_2.10" rev="7.1.0" transitive="false" conf="default->default,compile,runtime,default(compile),master">
+			<artifact name="scalaz-effect_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.google.protobuf" name="protobuf-java" rev="2.5.0" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="protobuf-java" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="run" rev="0.13.11" transitive="false" conf="default->compile,default(compile)">
+			<artifact name="run" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="net.databinder" name="pamflet-library_2.10" rev="0.6.0" transitive="false" conf="default->default,compile,runtime,default(compile),master">
+			<artifact name="pamflet-library_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="cross" rev="0.13.11" transitive="false" conf="default->compile,default(compile)">
+			<artifact name="cross" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.typesafe.sbt" name="sbt-web" rev="1.2.1" transitive="false" conf="default->compile,default(compile)" scalaVersion="2.10" sbtVersion="0.13">
+			<artifact name="sbt-web" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="io.apigee.trireme" name="trireme-core" rev="0.8.5" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="trireme-core" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-lang" name="scala-reflect" rev="2.10.6" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master" info.apiURL="http://www.scala-lang.org/api/2.10.6/">
+			<artifact name="scala-reflect" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt.ivy" name="ivy" rev="2.3.0-sbt-2cc8d2761242b072cedb0a04cb39435c4fa24f9a" transitive="false" conf="default->default,compile,runtime,default(compile),master">
+			<artifact name="ivy" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="persist" rev="0.13.11" transitive="false" conf="default->compile,default(compile)">
+			<artifact name="persist" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="net.databinder" name="pamflet-knockoff_2.10" rev="0.6.0" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="pamflet-knockoff_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.eclipse.jetty" name="jetty-servlet" rev="9.1.0.v20131115" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="jetty-servlet" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.googlecode.json-simple" name="json-simple" rev="1.1.1" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="json-simple" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="antlr" name="antlr" rev="2.7.7" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="antlr" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="classpath" rev="0.13.11" transitive="false" conf="default->compile,default(compile)">
+			<artifact name="classpath" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="sbt" rev="0.13.11" transitive="false" conf="default->compile,default(compile)">
+			<artifact name="sbt" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="net.databinder" name="unfiltered-util_2.10" rev="0.7.0" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="unfiltered-util_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.antlr" name="stringtemplate" rev="3.2.1" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="stringtemplate" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="testing" rev="0.13.11" transitive="false" conf="default->compile,default(compile)">
+			<artifact name="testing" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="jline" name="jline" rev="2.13" transitive="false" conf="default->default,compile,runtime,default(compile),master">
+			<artifact name="jline" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.fasterxml.jackson.core" name="jackson-annotations" rev="2.3.0" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="jackson-annotations" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scalaz" name="scalaz-core_2.10" rev="7.1.0" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="scalaz-core_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.typesafe.sbt" name="sbt-js-engine" rev="1.1.3" transitive="false" conf="default->compile,default(compile)" scalaVersion="2.10" sbtVersion="0.13">
+			<artifact name="sbt-js-engine" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="command" rev="0.13.11" transitive="false" conf="default->compile,default(compile)">
+			<artifact name="command" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.typesafe.sbt" name="sbt-ghpages" rev="0.5.4" transitive="false" conf="default->compile,default(compile)" scalaVersion="2.10" sbtVersion="0.13">
+			<artifact name="sbt-ghpages" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.eclipse.jgit" name="org.eclipse.jgit.archive" rev="3.7.0.201502260915-r" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="org.eclipse.jgit.archive" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="compile" rev="0.13.11" transitive="false" conf="default->compile,default(compile)">
+			<artifact name="compile" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.mortbay.jetty" name="servlet-api" rev="2.5-20081211" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="servlet-api" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.google.guava" name="guava" rev="19.0" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="guava" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.jcraft" name="jsch" rev="0.1.53" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="jsch" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.json4s" name="json4s-core_2.10" rev="3.2.10" transitive="false" conf="default->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="json4s-core_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.eclipse.jetty" name="jetty-io" rev="9.1.0.v20131115" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="jetty-io" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.typesafe" name="config" rev="1.2.1" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="config" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.typesafe.sbt" name="sbt-site" rev="0.8.1" transitive="false" conf="default->compile,default(compile)" scalaVersion="2.10" sbtVersion="0.13">
+			<artifact name="sbt-site" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.eclipse.jgit" name="org.eclipse.jgit" rev="4.3.0.201604071810-r" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="org.eclipse.jgit" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.mortbay.jetty" name="jetty-util" rev="6.1.22" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="jetty-util" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="main-settings" rev="0.13.11" transitive="false" conf="default->compile,default(compile)">
+			<artifact name="main-settings" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.fusesource.leveldbjni" name="leveldbjni-all" rev="1.7" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="leveldbjni-all" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.webjars" name="webjars-locator-core" rev="0.25" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="webjars-locator-core" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="relation" rev="0.13.11" transitive="false" conf="default->compile,default(compile)">
+			<artifact name="relation" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.slf4j" name="slf4j-api" rev="1.7.12" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="slf4j-api" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="jfree" name="jfreechart" rev="1.0.8a" transitive="false" conf="default->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="jfreechart" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.eclipse.jetty" name="jetty-webapp" rev="9.1.0.v20131115" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="jetty-webapp" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.uncommons.maths" name="uncommons-maths" rev="1.2.2a" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="uncommons-maths" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="io.apigee.trireme" name="trireme-node10src" rev="0.8.5" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="trireme-node10src" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="task-system" rev="0.13.11" transitive="false" conf="default->compile,default(compile)">
+			<artifact name="task-system" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="incremental-compiler" rev="0.13.11" transitive="false" conf="default->compile,default(compile)">
+			<artifact name="incremental-compiler" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="main" rev="0.13.11" transitive="false" conf="default->compile,default(compile)">
+			<artifact name="main" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.spire-math" name="jawn-parser_2.10" rev="0.6.0" transitive="false" conf="default->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="jawn-parser_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.mortbay.jetty" name="jetty" rev="6.1.22" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="jetty" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.fusesource.leveldbjni" name="leveldbjni-win64" rev="1.5" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="leveldbjni-win64" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-js" name="sbt-scalajs" rev="0.6.14" transitive="false" conf="default->compile,default(compile),runtime(*),master(compile),compile(*)" scalaVersion="2.10" sbtVersion="0.13" info.apiURL="http://www.scala-js.org/api/sbt-scalajs/0.6.14/">
+			<artifact name="sbt-scalajs" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.json4s" name="json4s-ast_2.10" rev="3.2.10" transitive="false" conf="default->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="json4s-ast_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.github.mpeltonen" name="sbt-idea" rev="1.6.0" transitive="false" conf="default->default,compile,runtime,default(compile),master" scalaVersion="2.10" sbtVersion="0.13">
+			<artifact name="sbt-idea" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.yaml" name="snakeyaml" rev="1.13" transitive="false" conf="default->default,compile,runtime,default(compile),master">
+			<artifact name="snakeyaml" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.10.6" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master" info.apiURL="http://www.scala-lang.org/api/2.10.6/">
+			<artifact name="scala-library" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="tasks" rev="0.13.11" transitive="false" conf="default->compile,default(compile)">
+			<artifact name="tasks" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="test-agent" rev="0.13.11" transitive="false" conf="default->compile,default(compile)">
+			<artifact name="test-agent" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="commons-codec" name="commons-codec" rev="1.6" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="commons-codec" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="launcher-interface" rev="1.0.0-M1" transitive="false" conf="default->default,compile,runtime,default(compile),master">
+			<artifact name="launcher-interface" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-js" name="scalajs-tools_2.10" rev="0.6.14" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master" info.apiURL="http://www.scala-js.org/api/scalajs-tools/0.6.14/">
+			<artifact name="scalajs-tools_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="javax.annotation" name="javax.annotation-api" rev="1.2" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="javax.annotation-api" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-js" name="closure-compiler-externs-java-6" rev="v20160517" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="closure-compiler-externs-java-6" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-tools.sbinary" name="sbinary_2.10" rev="0.4.2" transitive="false" conf="default->compile,default(compile)">
+			<artifact name="sbinary_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.webjars" name="webjars-locator" rev="0.25" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="webjars-locator" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.ow2.asm" name="asm" rev="4.1" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="asm" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="io" rev="0.13.11" transitive="false" conf="default->compile,default(compile)">
+			<artifact name="io" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="completion" rev="0.13.11" transitive="false" conf="default->compile,default(compile)">
+			<artifact name="completion" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="geronimo-spec" name="geronimo-spec-jta" rev="1.0.1B-rc4" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="geronimo-spec-jta" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-js" name="scalajs-js-envs_2.10" rev="0.6.14" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master" info.apiURL="http://www.scala-js.org/api/scalajs-js-envs/0.6.14/">
+			<artifact name="scalajs-js-envs_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.iq80.leveldb" name="leveldb-api" rev="0.5" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="leveldb-api" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.fusesource.hawtjni" name="hawtjni-runtime" rev="1.8" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="hawtjni-runtime" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="net.databinder" name="unfiltered-netty_2.10" rev="0.7.0" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="unfiltered-netty_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="net.databinder" name="unfiltered-netty-server_2.10" rev="0.7.0" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="unfiltered-netty-server_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.apache.httpcomponents" name="httpcore" rev="4.3.3" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="httpcore" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="compiler-interface" rev="0.13.11" transitive="false" conf="default->compile,default(compile)">
+			<artifact name="compiler-interface" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.typesafe" name="jse_2.10" rev="1.1.2" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="jse_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="javax.servlet" name="javax.servlet-api" rev="3.1.0" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="javax.servlet-api" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.spire-math" name="json4s-support_2.10" rev="0.6.0" transitive="false" conf="default->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="json4s-support_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.typesafe.akka" name="akka-cluster_2.10" rev="2.3.11" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="akka-cluster_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.eclipse.jetty" name="jetty-util" rev="9.1.0.v20131115" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="jetty-util" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.thoughtworks.sbt-scala-js-map" name="sbt-scala-js-map" rev="2.0.0" transitive="false" conf="default->default,compile,runtime,default(compile),master" scalaVersion="2.10" sbtVersion="0.13">
+			<artifact name="sbt-scala-js-map" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.fasterxml.jackson.core" name="jackson-core" rev="2.3.3" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="jackson-core" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="collections" rev="0.13.11" transitive="false" conf="default->compile,default(compile)">
+			<artifact name="collections" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="io.netty" name="netty" rev="3.8.0.Final" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="netty" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.google.code.gson" name="gson" rev="2.2.4" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="gson" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="cache" rev="0.13.11" transitive="false" conf="default->compile,default(compile)">
+			<artifact name="cache" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.eclipse.jgit" name="org.eclipse.jgit.pgm" rev="3.7.0.201502260915-r" transitive="false" conf="default->default,compile,runtime,default(compile),master">
+			<artifact name="org.eclipse.jgit.pgm" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="compiler-ivy-integration" rev="0.13.11" transitive="false" conf="default->compile,default(compile)">
+			<artifact name="compiler-ivy-integration" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.thoughtworks.paranamer" name="paranamer" rev="2.6" transitive="false" conf="default->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="paranamer" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-js" name="scalajs-sbt-test-adapter_2.10" rev="0.6.14" transitive="false" conf="default->default,compile,runtime,default(compile),master" info.apiURL="http://www.scala-js.org/api/scalajs-sbt-test-adapter/0.6.14/">
+			<artifact name="scalajs-sbt-test-adapter_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.eclipse.jetty" name="jetty-xml" rev="9.1.0.v20131115" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="jetty-xml" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.typesafe" name="npm_2.10" rev="1.1.1" transitive="false" conf="default->default,compile,runtime,default(compile),master">
+			<artifact name="npm_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.fusesource.leveldbjni" name="leveldbjni-win32" rev="1.5" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="leveldbjni-win32" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="process" rev="0.13.11" transitive="false" conf="default->compile,default(compile)">
+			<artifact name="process" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.typesafe.akka" name="akka-contrib_2.10" rev="2.3.11" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="akka-contrib_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.earldouglas" name="xsbt-web-plugin" rev="0.7.0" transitive="false" conf="default->default,compile,runtime,default(compile),master" scalaVersion="2.10" sbtVersion="0.13">
+			<artifact name="xsbt-web-plugin" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="net.databinder" name="unfiltered_2.10" rev="0.7.0" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="unfiltered_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.iq80.leveldb" name="leveldb" rev="0.5" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="leveldb" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="net.databinder" name="unfiltered-jetty_2.10" rev="0.6.8" transitive="false" conf="default->default,compile,runtime,default(compile),master">
+			<artifact name="unfiltered-jetty_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="compiler-integration" rev="0.13.11" transitive="false" conf="default->compile,default(compile)">
+			<artifact name="compiler-integration" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.ow2.asm" name="asm-commons" rev="4.1" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="asm-commons" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.ow2.asm" name="asm-tree" rev="4.1" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="asm-tree" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.mortbay.jetty" name="jetty-plus" rev="6.1.22" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="jetty-plus" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.eclipse.jetty" name="jetty-security" rev="9.1.0.v20131115" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="jetty-security" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.typesafe.akka" name="akka-remote_2.10" rev="2.3.11" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="akka-remote_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="ivy" rev="0.13.11" transitive="false" conf="default->compile,default(compile)">
+			<artifact name="ivy" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.fusesource.leveldbjni" name="leveldbjni-linux32" rev="1.5" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="leveldbjni-linux32" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="io.apigee" name="rhino" rev="1.7R5pre4" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="rhino" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="test-interface" rev="1.0" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="test-interface" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.6" transitive="false" conf="default->default,compile,runtime,default(compile),master,runtime(*),master(compile),compile(*)">
+			<artifact name="scala-compiler" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.eclipse.jetty" name="jetty-server" rev="9.1.0.v20131115" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="jetty-server" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="logging" rev="0.13.11" transitive="false" conf="default->compile,default(compile)">
+			<artifact name="logging" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="tracking" rev="0.13.11" transitive="false" conf="default->compile,default(compile)">
+			<artifact name="tracking" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.typesafe.sbteclipse" name="sbteclipse-plugin" rev="4.0.0" transitive="false" conf="default->compile,default(compile)" scalaVersion="2.10" sbtVersion="0.13">
+			<artifact name="sbteclipse-plugin" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.typesafe.akka" name="akka-persistence-experimental_2.10" rev="2.3.11" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="akka-persistence-experimental_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.eclipse.jetty" name="jetty-annotations" rev="9.1.0.v20131115" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="jetty-annotations" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-js" name="closure-compiler-java-6" rev="v20160517" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="closure-compiler-java-6" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.fasterxml.jackson.core" name="jackson-databind" rev="2.3.3" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="jackson-databind" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="control" rev="0.13.11" transitive="false" conf="default->compile,default(compile)">
+			<artifact name="control" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="commons-io" name="commons-io" rev="2.0.1" transitive="false" conf="default->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="commons-io" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+	</dependencies>
+</ivy-module>

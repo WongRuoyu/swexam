@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: org.specs2:specs2-core_2.10:3.6.4:jar">
+    <CLASSES>
+      <root url="jar://D:/sbt/cache/org.specs2/specs2-core_2.10/jars/specs2-core_2.10-3.6.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/sbt/cache/org.specs2/specs2-core_2.10/srcs/specs2-core_2.10-3.6.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

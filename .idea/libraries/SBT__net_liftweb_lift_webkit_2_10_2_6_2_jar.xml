@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: net.liftweb:lift-webkit_2.10:2.6.2:jar">
+    <CLASSES>
+      <root url="jar://D:/sbt/cache/net.liftweb/lift-webkit_2.10/jars/lift-webkit_2.10-2.6.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/sbt/cache/net.liftweb/lift-webkit_2.10/srcs/lift-webkit_2.10-2.6.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

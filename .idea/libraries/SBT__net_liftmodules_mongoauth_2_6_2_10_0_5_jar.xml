@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: net.liftmodules:mongoauth_2.6_2.10:0.5:jar">
+    <CLASSES>
+      <root url="jar://D:/sbt/cache/net.liftmodules/mongoauth_2.6_2.10/jars/mongoauth_2.6_2.10-0.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/sbt/cache/net.liftmodules/mongoauth_2.6_2.10/srcs/mongoauth_2.6_2.10-0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

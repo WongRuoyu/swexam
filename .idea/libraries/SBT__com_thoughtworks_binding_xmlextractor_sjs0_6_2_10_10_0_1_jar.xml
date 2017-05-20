@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: com.thoughtworks.binding:xmlextractor_sjs0.6_2.10:10.0.1:jar">
+    <CLASSES>
+      <root url="jar://D:/sbt/cache/com.thoughtworks.binding/xmlextractor_sjs0.6_2.10/jars/xmlextractor_sjs0.6_2.10-10.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/sbt/cache/com.thoughtworks.binding/xmlextractor_sjs0.6_2.10/srcs/xmlextractor_sjs0.6_2.10-10.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
