@@ -1,0 +1,3 @@
+05-20 15:23:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "EXAMASSIGNMENT" not found; SQL statement:
+SELECT examassignment.id, examassignment.user_id, examassignment.createdat, examassignment.exam_id, examassignment.done_$qmark, examassignment.creator_id, examassignment.updatedat FROM examassignment   WHERE exam_id = ?  [42102-187]

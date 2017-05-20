@@ -5,6 +5,13 @@
       <option name="deprecationWarnings" value="true" />
       <option name="uncheckedWarnings" value="true" />
       <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:scalajs:mapSourceURI:file:/D:/itellJworks/swexam/-&gt;https://github.com//WongRuoyu/swexam/raw/528c9d4cf337716b8e1087ffe934327623862021/" />
+      </parameters>
+      <plugins>
+        <plugin path="D:\sbt\cache\org.scala-js\scalajs-compiler_2.10.4\jars\scalajs-compiler_2.10.4-0.6.14.jar" />
+        <plugin path="D:\sbt\cache\org.scalamacros\paradise_2.10.4\jars\paradise_2.10.4-2.1.0.jar" />
+      </plugins>
     </profile>
   </component>
 </project>

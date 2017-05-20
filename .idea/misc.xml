@@ -1,0 +1,21 @@
+<project version="4">
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id/>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component project-jdk-type="JavaSDK" project-jdk-name="1.8" default="false" languageLevel="JDK_1_8" version="2" name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/classes"/>
+  </component>
+</project>

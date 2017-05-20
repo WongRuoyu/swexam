@@ -20,18 +20,18 @@ class User extends MegaProtoUser[User] with OneToMany[Long, User] {
 
   def finishExam(exam: Exam) {
     ExamAssignment.findAll(By(ExamAssignment.exam, exam.id.get), By(ExamAssignment.user, this.id.get))
-      .map(_.done(true).save())
+      .map(_.done_?(true).save())
   }
 
   def finishExamById(examID: Long) {
-    ExamAssignment.findAll(By(ExamAssignment.exam, examID)).map(_.done(true).save())
+    ExamAssignment.findAll(By(ExamAssignment.exam, examID)).map(_.done_?(true).save())
   }
 
   def examHists: List[ExamHistory] = ExamHistory.findAll(By(ExamHistory.user, this.id.get))
 
   //该用户为完成的考试
   def examsTofinish: List[ExamAssignment] =
-    ExamAssignment.findAll(By(ExamAssignment.user, this.id.get), By(ExamAssignment.done, false))
+    ExamAssignment.findAll(By(ExamAssignment.user, this.id.get), By(ExamAssignment.done_?, false))
 }
 
 /**
@@ -100,7 +100,7 @@ object User extends User with MetaMegaProtoUser[User] with BootstrapMegaMetaProt
   override def dbAddTable: Box[() => Unit] = Full(populate _)
 
   private def populate {
-    User.firstName("tuser1").password("123").save
+    User.firstName("fcs2").password("123").save
   }
 }
 

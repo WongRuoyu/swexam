@@ -1,0 +1,22 @@
+<!DOCTYPE html xmlns="http://www.w3.org/1999/xhtml" xmlns:lift="http://liftweb.net/">
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body data-lift-content-id="main">
+<!--考生提交试卷后跳转至此页面查看成绩-->
+<div id="main" data-lift="surround?with=default;at=content">
+    <div id="exam-result" data-lift="PublicExamSnippet.examPost">
+        <dl class="dl-horizontal">
+            <dt>试卷名称</dt>
+            <dd id="exam-name">exam name</dd>
+            <dt>考试时间</dt>
+            <dd id="exam-date">the date of the exam</dd>
+            <dt>得分</dt>
+            <dd id="exam-points">the total points got in this exam</dd>
+        </dl>
+    </div>
+</div>
+</body>
+</html>

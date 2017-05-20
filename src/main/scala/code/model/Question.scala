@@ -13,11 +13,6 @@ import net.liftweb.http.SHtml
 /**
  * Created by Wong on 15-8-2.
  */
-/**
- * 存在问题
- * 1
- * 单独重写某个属性的toForm后，无法修改该实体
- */
 
 class Question extends LongKeyedMapper[Question] with CreatedUpdated with IdPK {
   override def getSingleton: KeyedMetaMapper[Long, Question] = Question

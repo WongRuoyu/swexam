@@ -1,0 +1,61 @@
+<!DOCTYPE html xmlns="http://www.w3.org/1999/xhtml" xmlns:lift="http://liftweb.net/">
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body data-lift-content-id="main">
+<div id="main" data-lift="surround?with=default;at=content">
+
+    <div>
+        <ul class="nav nav-pills" data-lift="QuestionSnippet2.opts">
+            <li class="kpts">
+                <a href="#" class="btn btn-link">All</a>
+            </li>
+        </ul>
+    </div>
+
+    <div>
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <td>Id</td>
+                <td>Content</td>
+                <td>Points</td>
+                <td>Detail</td>
+                <td>Modify</td>
+                <td>Delete</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr id="question_pages" data-lift="QuestionPaginatorSnippet.pages">
+                <td class="id"></td>
+                <td class="content"></td>
+                <td class="point"></td>
+                <td><a href="#" class="btn btn-link" id="page_detail">detail ...</a></td>
+                <td><a href="#" class="btn btn-link" id="page_modify">modify ...</a></td>
+                <td><a href="#" class="btn btn-link" id="page_delete">delete ...</a></td>
+            </tr>
+            </tbody>
+        </table>
+
+
+        <div data-lift="QuestionPaginatorSnippet.paginate">
+            <p>
+                <nav:records></nav:records>
+            </p>
+            <nav:first>
+            </nav:first>
+            |
+            <nav:prev></nav:prev>
+            |
+            <nav:allpages>|</nav:allpages>
+            |
+            <nav:next></nav:next>
+            |
+            <nav:last></nav:last>
+        </div>
+    </div>
+</div>
+</body>
+</html>

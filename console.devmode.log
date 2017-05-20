@@ -1,137 +1,93 @@
-3000 [qtp20342521-468] WARN  net.liftweb.http.LiftRules - Unmapped Lift-like parameter seen in request [/exam/result]: F927513165693ZQUKAR
-3265 [qtp20342521-468] DEBUG bootstrap.liftweb.Boot - Total query time : 0 ms
-3265 [qtp20342521-468] DEBUG bootstrap.liftweb.Boot - Exec query "SELECT examassignment.id, examassignment.user_id, examassignment.creator_id, examassignment.done, examassignment.updatedat, examassignment.exam_id, examassignment.createdat FROM examassignment   WHERE exam_id = -1 " : com.mysql.jdbc.JDBC4ResultSet@17ef6de in 0 ms
-3265 [qtp20342521-468] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-3265 [qtp20342521-468] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-3281 [qtp20342521-468] DEBUG bootstrap.liftweb.Boot - Total query time : 0 ms
-3281 [qtp20342521-468] DEBUG bootstrap.liftweb.Boot - Exec query "SELECT examassignment.id, examassignment.user_id, examassignment.creator_id, examassignment.done, examassignment.updatedat, examassignment.exam_id, examassignment.createdat FROM examassignment   WHERE exam_id = -1 " : com.mysql.jdbc.JDBC4ResultSet@1c76d4d in 0 ms
-3281 [qtp20342521-468] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-3281 [qtp20342521-468] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-3281 [qtp20342521-468] DEBUG bootstrap.liftweb.Boot - Total query time : 16 ms
-3281 [qtp20342521-468] DEBUG bootstrap.liftweb.Boot - Exec query "SELECT exams.name, exams.id, exams.description, exams.points, exams.content, exams.updatedat, exams.duration, exams.online_c, exams.createdat, exams.dateofexpired, exams.dateofstart, exams.dateofcreated FROM exams  " : com.mysql.jdbc.JDBC4ResultSet@3707ad in 0 ms
-3281 [qtp20342521-468] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-3281 [qtp20342521-468] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-3578 [qtp20342521-468] DEBUG bootstrap.liftweb.Boot - Total query time : 0 ms
-3578 [qtp20342521-468] DEBUG bootstrap.liftweb.Boot - Exec query "SELECT users.id, users.firstname, users.password_pw, users.password_slt, users.locale, users.email, users.validated, users.timezone, users.lastname, users.uniqueid, users.superuser FROM users   WHERE firstname = "fcs2" " : com.mysql.jdbc.JDBC4ResultSet@1885ea3 in 0 ms
-3578 [qtp20342521-468] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-3578 [qtp20342521-468] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-6078 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Total query time : 0 ms
-6078 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Exec query "SELECT examhistory.id, examhistory.user_id, examhistory.updatedat, examhistory.exam_id, examhistory.createdat, examhistory.total_points, examhistory.answers FROM examhistory   WHERE exam_id = 9 " : com.mysql.jdbc.JDBC4ResultSet@f2ab57 in 0 ms
-6078 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-6093 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-6093 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Total query time : 0 ms
-6093 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Exec query "SELECT users.id, users.firstname, users.password_pw, users.password_slt, users.locale, users.email, users.validated, users.timezone, users.lastname, users.uniqueid, users.superuser FROM users   WHERE id = 3 " : com.mysql.jdbc.JDBC4ResultSet@1acafcf in 0 ms
-6093 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-6093 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-6093 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Total query time : 0 ms
-6093 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Exec query "SELECT users.id, users.firstname, users.password_pw, users.password_slt, users.locale, users.email, users.validated, users.timezone, users.lastname, users.uniqueid, users.superuser FROM users   WHERE id = 3 " : com.mysql.jdbc.JDBC4ResultSet@c4b740 in 0 ms
-6093 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-6093 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-6093 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Total query time : 0 ms
-6093 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Exec query "SELECT users.id, users.firstname, users.password_pw, users.password_slt, users.locale, users.email, users.validated, users.timezone, users.lastname, users.uniqueid, users.superuser FROM users   WHERE id = 3 " : com.mysql.jdbc.JDBC4ResultSet@1786d19 in 0 ms
-6093 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-6093 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-6093 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Total query time : 0 ms
-6093 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Exec query "SELECT users.id, users.firstname, users.password_pw, users.password_slt, users.locale, users.email, users.validated, users.timezone, users.lastname, users.uniqueid, users.superuser FROM users   WHERE id = 3 " : com.mysql.jdbc.JDBC4ResultSet@9328f5 in 0 ms
-6093 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-6093 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-6093 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Total query time : 0 ms
-6093 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Exec query "SELECT users.id, users.firstname, users.password_pw, users.password_slt, users.locale, users.email, users.validated, users.timezone, users.lastname, users.uniqueid, users.superuser FROM users   WHERE id = 3 " : com.mysql.jdbc.JDBC4ResultSet@1ab7e11 in 0 ms
-6093 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-6093 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-6093 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Total query time : 0 ms
-6093 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Exec query "SELECT users.id, users.firstname, users.password_pw, users.password_slt, users.locale, users.email, users.validated, users.timezone, users.lastname, users.uniqueid, users.superuser FROM users   WHERE id = 3 " : com.mysql.jdbc.JDBC4ResultSet@12becb7 in 0 ms
-6093 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-6093 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-6109 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Total query time : 0 ms
-6109 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Exec query "SELECT users.id, users.firstname, users.password_pw, users.password_slt, users.locale, users.email, users.validated, users.timezone, users.lastname, users.uniqueid, users.superuser FROM users   WHERE id = 3 " : com.mysql.jdbc.JDBC4ResultSet@12b694a in 0 ms
-6109 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-6109 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-6109 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Total query time : 0 ms
-6109 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Exec query "SELECT users.id, users.firstname, users.password_pw, users.password_slt, users.locale, users.email, users.validated, users.timezone, users.lastname, users.uniqueid, users.superuser FROM users   WHERE id = 3 " : com.mysql.jdbc.JDBC4ResultSet@45b7b in 0 ms
-6109 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-6109 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-18078 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Total query time : 0 ms
-18078 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Exec query "SELECT examassignment.id, examassignment.user_id, examassignment.creator_id, examassignment.done, examassignment.updatedat, examassignment.exam_id, examassignment.createdat FROM examassignment   WHERE exam_id = -1 " : com.mysql.jdbc.JDBC4ResultSet@170343 in 0 ms
-18078 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-18078 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-18078 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Total query time : 0 ms
-18078 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Exec query "SELECT examassignment.id, examassignment.user_id, examassignment.creator_id, examassignment.done, examassignment.updatedat, examassignment.exam_id, examassignment.createdat FROM examassignment   WHERE exam_id = -1 " : com.mysql.jdbc.JDBC4ResultSet@1427272 in 0 ms
-18078 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-18078 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-18078 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Total query time : 0 ms
-18078 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Exec query "SELECT exams.name, exams.id, exams.description, exams.points, exams.content, exams.updatedat, exams.duration, exams.online_c, exams.createdat, exams.dateofexpired, exams.dateofstart, exams.dateofcreated FROM exams  " : com.mysql.jdbc.JDBC4ResultSet@aa991e in 0 ms
-18078 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-18078 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-20047 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Total query time : 16 ms
-20047 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Exec query "SELECT examhistory.id, examhistory.user_id, examhistory.updatedat, examhistory.exam_id, examhistory.createdat, examhistory.total_points, examhistory.answers FROM examhistory   WHERE exam_id = 9 " : com.mysql.jdbc.JDBC4ResultSet@c37af1 in 0 ms
-20047 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-20047 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-20047 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Total query time : 0 ms
-20047 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Exec query "SELECT users.id, users.firstname, users.password_pw, users.password_slt, users.locale, users.email, users.validated, users.timezone, users.lastname, users.uniqueid, users.superuser FROM users   WHERE id = 3 " : com.mysql.jdbc.JDBC4ResultSet@23e71c in 0 ms
-20047 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-20047 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-20047 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Total query time : 0 ms
-20047 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Exec query "SELECT users.id, users.firstname, users.password_pw, users.password_slt, users.locale, users.email, users.validated, users.timezone, users.lastname, users.uniqueid, users.superuser FROM users   WHERE id = 3 " : com.mysql.jdbc.JDBC4ResultSet@edf57a in 0 ms
-20047 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-20047 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-20047 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Total query time : 0 ms
-20047 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Exec query "SELECT users.id, users.firstname, users.password_pw, users.password_slt, users.locale, users.email, users.validated, users.timezone, users.lastname, users.uniqueid, users.superuser FROM users   WHERE id = 3 " : com.mysql.jdbc.JDBC4ResultSet@ddb415 in 0 ms
-20047 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-20047 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-20047 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Total query time : 0 ms
-20047 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Exec query "SELECT users.id, users.firstname, users.password_pw, users.password_slt, users.locale, users.email, users.validated, users.timezone, users.lastname, users.uniqueid, users.superuser FROM users   WHERE id = 3 " : com.mysql.jdbc.JDBC4ResultSet@65276 in 0 ms
-20047 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-20047 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-20047 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Total query time : 0 ms
-20047 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Exec query "SELECT users.id, users.firstname, users.password_pw, users.password_slt, users.locale, users.email, users.validated, users.timezone, users.lastname, users.uniqueid, users.superuser FROM users   WHERE id = 3 " : com.mysql.jdbc.JDBC4ResultSet@9af9df in 0 ms
-20047 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-20047 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-20047 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Total query time : 0 ms
-20047 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Exec query "SELECT users.id, users.firstname, users.password_pw, users.password_slt, users.locale, users.email, users.validated, users.timezone, users.lastname, users.uniqueid, users.superuser FROM users   WHERE id = 3 " : com.mysql.jdbc.JDBC4ResultSet@e6d0ba in 0 ms
-20047 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-20047 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-20047 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Total query time : 0 ms
-20047 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Exec query "SELECT users.id, users.firstname, users.password_pw, users.password_slt, users.locale, users.email, users.validated, users.timezone, users.lastname, users.uniqueid, users.superuser FROM users   WHERE id = 3 " : com.mysql.jdbc.JDBC4ResultSet@1c2d3f8 in 0 ms
-20062 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-20062 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-20062 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Total query time : 0 ms
-20062 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Exec query "SELECT users.id, users.firstname, users.password_pw, users.password_slt, users.locale, users.email, users.validated, users.timezone, users.lastname, users.uniqueid, users.superuser FROM users   WHERE id = 3 " : com.mysql.jdbc.JDBC4ResultSet@8c811f in 0 ms
-20062 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-20062 [qtp20342521-465] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-81812 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Total query time : 15 ms
-81812 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Exec query "SELECT examhistory.id, examhistory.user_id, examhistory.updatedat, examhistory.exam_id, examhistory.createdat, examhistory.total_points, examhistory.answers FROM examhistory   WHERE exam_id = 9 " : com.mysql.jdbc.JDBC4ResultSet@485676 in 0 ms
-81812 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-81812 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-81812 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Total query time : 0 ms
-81812 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Exec query "SELECT users.id, users.firstname, users.password_pw, users.password_slt, users.locale, users.email, users.validated, users.timezone, users.lastname, users.uniqueid, users.superuser FROM users   WHERE id = 3 " : com.mysql.jdbc.JDBC4ResultSet@14329be in 0 ms
-81812 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-81812 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-81812 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Total query time : 0 ms
-81812 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Exec query "SELECT users.id, users.firstname, users.password_pw, users.password_slt, users.locale, users.email, users.validated, users.timezone, users.lastname, users.uniqueid, users.superuser FROM users   WHERE id = 3 " : com.mysql.jdbc.JDBC4ResultSet@cae098 in 0 ms
-81812 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-81812 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-81812 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Total query time : 0 ms
-81812 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Exec query "SELECT users.id, users.firstname, users.password_pw, users.password_slt, users.locale, users.email, users.validated, users.timezone, users.lastname, users.uniqueid, users.superuser FROM users   WHERE id = 3 " : com.mysql.jdbc.JDBC4ResultSet@1b082a1 in 0 ms
-81812 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-81812 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-81812 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Total query time : 0 ms
-81812 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Exec query "SELECT users.id, users.firstname, users.password_pw, users.password_slt, users.locale, users.email, users.validated, users.timezone, users.lastname, users.uniqueid, users.superuser FROM users   WHERE id = 3 " : com.mysql.jdbc.JDBC4ResultSet@16657f1 in 0 ms
-81812 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-81812 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-81812 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Total query time : 0 ms
-81812 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Exec query "SELECT users.id, users.firstname, users.password_pw, users.password_slt, users.locale, users.email, users.validated, users.timezone, users.lastname, users.uniqueid, users.superuser FROM users   WHERE id = 3 " : com.mysql.jdbc.JDBC4ResultSet@9a32a in 0 ms
-81812 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-81812 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-81812 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Total query time : 0 ms
-81812 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Exec query "SELECT users.id, users.firstname, users.password_pw, users.password_slt, users.locale, users.email, users.validated, users.timezone, users.lastname, users.uniqueid, users.superuser FROM users   WHERE id = 3 " : com.mysql.jdbc.JDBC4ResultSet@1b947fe in 0 ms
-81812 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-81812 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-81812 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Total query time : 0 ms
-81812 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Exec query "SELECT users.id, users.firstname, users.password_pw, users.password_slt, users.locale, users.email, users.validated, users.timezone, users.lastname, users.uniqueid, users.superuser FROM users   WHERE id = 3 " : com.mysql.jdbc.JDBC4ResultSet@4cede7 in 0 ms
-81812 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-81812 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-81828 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Total query time : 0 ms
-81828 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Exec query "SELECT users.id, users.firstname, users.password_pw, users.password_slt, users.locale, users.email, users.validated, users.timezone, users.lastname, users.uniqueid, users.superuser FROM users   WHERE id = 3 " : com.mysql.jdbc.JDBC4ResultSet@19c65e0 in 0 ms
-81828 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
-81828 [qtp20342521-469] DEBUG bootstrap.liftweb.Boot - Closed Statement in 0 ms
+611  [pool-9-thread-1] ERROR n.l.http.provider.HTTPProvider - Failed to Boot! Your application may not run properly
+java.lang.ExceptionInInitializerError: null
+	at bootstrap.liftweb.Boot.boot(Boot.scala:43) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_91]
+	at net.liftweb.util.ClassHelpers$$anonfun$createInvoker$1.apply(ClassHelpers.scala:364) ~[lift-util_2.10-2.6.2.jar:2.6.2]
+	at net.liftweb.util.ClassHelpers$$anonfun$createInvoker$1.apply(ClassHelpers.scala:362) ~[lift-util_2.10-2.6.2.jar:2.6.2]
+	at net.liftweb.http.DefaultBootstrap$$anonfun$boot$1.apply(LiftRules.scala:2040) ~[lift-webkit_2.10-2.6.2.jar:2.6.2]
+	at net.liftweb.http.DefaultBootstrap$$anonfun$boot$1.apply(LiftRules.scala:2040) ~[lift-webkit_2.10-2.6.2.jar:2.6.2]
+	at net.liftweb.common.Full.map(Box.scala:610) ~[lift-common_2.10-2.6.2.jar:2.6.2]
+	at net.liftweb.http.DefaultBootstrap$.boot(LiftRules.scala:2040) ~[lift-webkit_2.10-2.6.2.jar:2.6.2]
+	at net.liftweb.http.provider.HTTPProvider$class.bootLift(HTTPProvider.scala:88) ~[lift-webkit_2.10-2.6.2.jar:2.6.2]
+	at net.liftweb.http.LiftFilter.bootLift(LiftServlet.scala:928) [lift-webkit_2.10-2.6.2.jar:2.6.2]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$class.init(ServletFilterProvider.scala:40) [lift-webkit_2.10-2.6.2.jar:2.6.2]
+	at net.liftweb.http.LiftFilter.init(LiftServlet.scala:928) [lift-webkit_2.10-2.6.2.jar:2.6.2]
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:118) [jetty-servlet-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:768) [jetty-servlet-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265) [jetty-servlet-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1242) [jetty-webapp-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:717) [jetty-server-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:494) [jetty-webapp-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229) [jetty-server-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.doStart(ContextHandlerCollection.java:172) [jetty-server-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95) [jetty-server-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:282) [jetty-server-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.17.v20150415.jar:8.1.17.v20150415]
+	at com.earldouglas.xsbtwebplugin.Jetty7Runner.start(Jetty7Runner.scala:108) [xsbt-web-plugin-0.7.0.jar:0.7.0]
+	at com.earldouglas.xsbtwebplugin.Container$$anonfun$containerSettings$11.apply(Container.scala:77) [xsbt-web-plugin-0.7.0.jar:0.7.0]
+	at com.earldouglas.xsbtwebplugin.Container$$anonfun$containerSettings$11.apply(Container.scala:74) [xsbt-web-plugin-0.7.0.jar:0.7.0]
+	at scala.Function8$$anonfun$tupled$1.apply(Function8.scala:35) [scala-library.jar:1.0.0-M1]
+	at scala.Function8$$anonfun$tupled$1.apply(Function8.scala:34) [scala-library.jar:1.0.0-M1]
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47) [scala-library.jar:1.0.0-M1]
+	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40) [collections-0.13.11.jar:0.13.11]
+	at sbt.std.Transform$$anon$4.work(System.scala:63) [task-system-0.13.11.jar:0.13.11]
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:228) [tasks-0.13.11.jar:0.13.11]
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:228) [tasks-0.13.11.jar:0.13.11]
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17) [control-0.13.11.jar:0.13.11]
+	at sbt.Execute.work(Execute.scala:237) [tasks-0.13.11.jar:0.13.11]
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:228) [tasks-0.13.11.jar:0.13.11]
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:228) [tasks-0.13.11.jar:0.13.11]
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159) [tasks-0.13.11.jar:0.13.11]
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28) [tasks-0.13.11.jar:0.13.11]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [na:1.8.0_91]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [na:1.8.0_91]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [na:1.8.0_91]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_91]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_91]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_91]
+Caused by: org.h2.jdbc.JdbcSQLException: Table "EXAMASSIGNMENT" not found; SQL statement:
+SELECT examassignment.id, examassignment.user_id, examassignment.createdat, examassignment.exam_id, examassignment.done_$qmark, examassignment.creator_id, examassignment.updatedat FROM examassignment   WHERE exam_id = ?  [42102-187]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345) ~[h2-1.4.187.jar:1.4.187]
+	at org.h2.message.DbException.get(DbException.java:179) ~[h2-1.4.187.jar:1.4.187]
+	at org.h2.message.DbException.get(DbException.java:155) ~[h2-1.4.187.jar:1.4.187]
+	at org.h2.command.Parser.readTableOrView(Parser.java:5261) ~[h2-1.4.187.jar:1.4.187]
+	at org.h2.command.Parser.readTableFilter(Parser.java:1235) ~[h2-1.4.187.jar:1.4.187]
+	at org.h2.command.Parser.parseSelectSimpleFromPart(Parser.java:1874) ~[h2-1.4.187.jar:1.4.187]
+	at org.h2.command.Parser.parseSelectSimple(Parser.java:1983) ~[h2-1.4.187.jar:1.4.187]
+	at org.h2.command.Parser.parseSelectSub(Parser.java:1868) ~[h2-1.4.187.jar:1.4.187]
+	at org.h2.command.Parser.parseSelectUnion(Parser.java:1689) ~[h2-1.4.187.jar:1.4.187]
+	at org.h2.command.Parser.parseSelect(Parser.java:1677) ~[h2-1.4.187.jar:1.4.187]
+	at org.h2.command.Parser.parsePrepared(Parser.java:433) ~[h2-1.4.187.jar:1.4.187]
+	at org.h2.command.Parser.parse(Parser.java:305) ~[h2-1.4.187.jar:1.4.187]
+	at org.h2.command.Parser.parse(Parser.java:277) ~[h2-1.4.187.jar:1.4.187]
+	at org.h2.command.Parser.prepareCommand(Parser.java:242) ~[h2-1.4.187.jar:1.4.187]
+	at org.h2.engine.Session.prepareLocal(Session.java:461) ~[h2-1.4.187.jar:1.4.187]
+	at org.h2.engine.Session.prepareCommand(Session.java:403) ~[h2-1.4.187.jar:1.4.187]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1189) ~[h2-1.4.187.jar:1.4.187]
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:72) ~[h2-1.4.187.jar:1.4.187]
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:277) ~[h2-1.4.187.jar:1.4.187]
+	at net.liftweb.db.DB$class.prepareStatement(DB.scala:616) ~[lift-db_2.10-2.6.2.jar:2.6.2]
+	at net.liftweb.db.DB$$anon$1.prepareStatement(DB.scala:40) ~[lift-db_2.10-2.6.2.jar:2.6.2]
+	at net.liftweb.mapper.MetaMapper$$anonfun$findMapFieldDb$1.apply(MetaMapper.scala:407) ~[lift-mapper_2.10-2.6.2.jar:2.6.2]
+	at net.liftweb.mapper.MetaMapper$$anonfun$findMapFieldDb$1.apply(MetaMapper.scala:404) ~[lift-mapper_2.10-2.6.2.jar:2.6.2]
+	at net.liftweb.db.DB$$anonfun$use$1.apply(DB.scala:701) ~[lift-db_2.10-2.6.2.jar:2.6.2]
+	at net.liftweb.util.DynoVar$class.run(ThreadGlobal.scala:95) ~[lift-util_2.10-2.6.2.jar:2.6.2]
+	at net.liftweb.db.DB$currentConn$.run(DB.scala:686) ~[lift-db_2.10-2.6.2.jar:2.6.2]
+	at net.liftweb.db.DB$class.use(DB.scala:698) ~[lift-db_2.10-2.6.2.jar:2.6.2]
+	at net.liftweb.db.DB$$anon$1.use(DB.scala:40) ~[lift-db_2.10-2.6.2.jar:2.6.2]
+	at net.liftweb.mapper.MetaMapper$class.findMapFieldDb(MetaMapper.scala:403) ~[lift-mapper_2.10-2.6.2.jar:2.6.2]
+	at com.wong.model.ExamAssignment$.findMapFieldDb(ExamAssignment.scala:43) ~[classes/:na]
+	at net.liftweb.mapper.MetaMapper$class.findMapDb(MetaMapper.scala:373) ~[lift-mapper_2.10-2.6.2.jar:2.6.2]
+	at com.wong.model.ExamAssignment$.findMapDb(ExamAssignment.scala:43) ~[classes/:na]
+	at net.liftweb.mapper.MetaMapper$class.findAll(MetaMapper.scala:340) ~[lift-mapper_2.10-2.6.2.jar:2.6.2]
+	at com.wong.model.ExamAssignment$.findAll(ExamAssignment.scala:43) ~[classes/:na]
+	at com.wong.model.Exam.<init>(Exam.scala:21) ~[classes/:na]
+	at com.wong.model.Exam$.<init>(Exam.scala:112) ~[classes/:na]
+	at com.wong.model.Exam$.<clinit>(Exam.scala) ~[classes/:na]
+	... 51 common frames omitted

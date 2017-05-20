@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.wong"
+		module="swexam$sources_2.11"
+		revision="0.0.5"
+		conf="container"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, container"
+		date="20170405125743"/>
+	<dependencies>
+		<module organisation="org.eclipse.jetty" name="jetty-plus">
+			<revision name="8.1.17.v20150415" status="release" pubdate="20150429065300" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="8012" time="0" location="D:\sbt\cache\org.eclipse.jetty\jetty-plus\ivy-8.1.17.v20150415.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-plus/8.1.17.v20150415/jetty-plus-8.1.17.v20150415.pom"/>
+				<caller organisation="com.wong" name="swexam$sources_2.11" conf="container" rev="8.1.17.v20150415" rev-constraint-default="8.1.17.v20150415" rev-constraint-dynamic="8.1.17.v20150415" callerrev="0.0.5"/>
+				<artifacts>
+					<artifact name="jetty-plus" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="63598" time="0" location="D:\sbt\cache\org.eclipse.jetty\jetty-plus\srcs\jetty-plus-8.1.17.v20150415-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-plus/8.1.17.v20150415/jetty-plus-8.1.17.v20150415-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-jndi">
+			<revision name="8.1.17.v20150415" status="release" pubdate="20150429065216" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="7636" time="0" location="D:\sbt\cache\org.eclipse.jetty\jetty-jndi\ivy-8.1.17.v20150415.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-jndi/8.1.17.v20150415/jetty-jndi-8.1.17.v20150415.pom"/>
+				<caller organisation="com.wong" name="swexam$sources_2.11" conf="container" rev="8.1.17.v20150415" rev-constraint-default="8.1.17.v20150415" rev-constraint-dynamic="8.1.17.v20150415" callerrev="0.0.5"/>
+				<artifacts>
+					<artifact name="jetty-jndi" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="27373" time="0" location="D:\sbt\cache\org.eclipse.jetty\jetty-jndi\srcs\jetty-jndi-8.1.17.v20150415-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-jndi/8.1.17.v20150415/jetty-jndi-8.1.17.v20150415-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty.orbit" name="javax.mail.glassfish">
+			<revision name="1.4.1.v201005082020" status="release" pubdate="20120121062330" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="3630" time="0" location="D:\sbt\cache\org.eclipse.jetty.orbit\javax.mail.glassfish\ivy-1.4.1.v201005082020.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.mail.glassfish/1.4.1.v201005082020/javax.mail.glassfish-1.4.1.v201005082020.pom"/>
+				<caller organisation="com.wong" name="swexam$sources_2.11" conf="container" rev="1.4.1.v201005082020" rev-constraint-default="1.4.1.v201005082020" rev-constraint-dynamic="1.4.1.v201005082020" callerrev="0.0.5"/>
+				<artifacts>
+					<artifact name="javax.mail.glassfish" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="689366" time="0" location="D:\sbt\cache\org.eclipse.jetty.orbit\javax.mail.glassfish\srcs\javax.mail.glassfish-1.4.1.v201005082020-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.mail.glassfish/1.4.1.v201005082020/javax.mail.glassfish-1.4.1.v201005082020-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty.orbit" name="javax.activation">
+			<revision name="1.1.0.v201105071233" status="release" pubdate="20120121062254" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="3414" time="0" location="D:\sbt\cache\org.eclipse.jetty.orbit\javax.activation\ivy-1.1.0.v201105071233.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.activation/1.1.0.v201105071233/javax.activation-1.1.0.v201105071233.pom"/>
+				<caller organisation="com.wong" name="swexam$sources_2.11" conf="container" rev="1.1.0.v201105071233" rev-constraint-default="1.1.0.v201105071233" rev-constraint-dynamic="1.1.0.v201105071233" callerrev="0.0.5"/>
+				<artifacts>
+					<artifact name="javax.activation" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="43293" time="0" location="D:\sbt\cache\org.eclipse.jetty.orbit\javax.activation\srcs\javax.activation-1.1.0.v201105071233-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.activation/1.1.0.v201105071233/javax.activation-1.1.0.v201105071233-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty.orbit" name="javax.transaction">
+			<revision name="1.1.1.v201105210645" status="release" pubdate="20111208040536" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="3416" time="0" location="D:\sbt\cache\org.eclipse.jetty.orbit\javax.transaction\ivy-1.1.1.v201105210645.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.transaction/1.1.1.v201105210645/javax.transaction-1.1.1.v201105210645.pom"/>
+				<caller organisation="com.wong" name="swexam$sources_2.11" conf="container" rev="1.1.1.v201105210645" rev-constraint-default="1.1.1.v201105210645" rev-constraint-dynamic="1.1.1.v201105210645" callerrev="0.0.5"/>
+				<artifacts>
+					<artifact name="javax.transaction" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="30087" time="0" location="D:\sbt\cache\org.eclipse.jetty.orbit\javax.transaction\srcs\javax.transaction-1.1.1.v201105210645-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.transaction/1.1.1.v201105210645/javax.transaction-1.1.1.v201105210645-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-webapp">
+			<revision name="8.1.17.v20150415" status="release" pubdate="20150429064825" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="7811" time="0" location="D:\sbt\cache\org.eclipse.jetty\jetty-webapp\ivy-8.1.17.v20150415.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-webapp/8.1.17.v20150415/jetty-webapp-8.1.17.v20150415.pom"/>
+				<caller organisation="com.wong" name="swexam$sources_2.11" conf="container" rev="8.1.17.v20150415" rev-constraint-default="8.1.17.v20150415" rev-constraint-dynamic="8.1.17.v20150415" callerrev="0.0.5"/>
+				<artifacts>
+					<artifact name="jetty-webapp" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="74348" time="0" location="D:\sbt\cache\org.eclipse.jetty\jetty-webapp\srcs\jetty-webapp-8.1.17.v20150415-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-webapp/8.1.17.v20150415/jetty-webapp-8.1.17.v20150415-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-servlet">
+			<revision name="8.1.17.v20150415" status="release" pubdate="20150429064428" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="7631" time="0" location="D:\sbt\cache\org.eclipse.jetty\jetty-servlet\ivy-8.1.17.v20150415.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/8.1.17.v20150415/jetty-servlet-8.1.17.v20150415.pom"/>
+				<caller organisation="com.wong" name="swexam$sources_2.11" conf="container" rev="8.1.17.v20150415" rev-constraint-default="8.1.17.v20150415" rev-constraint-dynamic="8.1.17.v20150415" callerrev="0.0.5"/>
+				<artifacts>
+					<artifact name="jetty-servlet" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="58525" time="0" location="D:\sbt\cache\org.eclipse.jetty\jetty-servlet\srcs\jetty-servlet-8.1.17.v20150415-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/8.1.17.v20150415/jetty-servlet-8.1.17.v20150415-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-security">
+			<revision name="8.1.17.v20150415" status="release" pubdate="20150429064333" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="7554" time="0" location="D:\sbt\cache\org.eclipse.jetty\jetty-security\ivy-8.1.17.v20150415.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/8.1.17.v20150415/jetty-security-8.1.17.v20150415.pom"/>
+				<caller organisation="com.wong" name="swexam$sources_2.11" conf="container" rev="8.1.17.v20150415" rev-constraint-default="8.1.17.v20150415" rev-constraint-dynamic="8.1.17.v20150415" callerrev="0.0.5"/>
+				<artifacts>
+					<artifact name="jetty-security" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="62396" time="0" location="D:\sbt\cache\org.eclipse.jetty\jetty-security\srcs\jetty-security-8.1.17.v20150415-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/8.1.17.v20150415/jetty-security-8.1.17.v20150415-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-server">
+			<revision name="8.1.17.v20150415" status="release" pubdate="20150429064227" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="8142" time="0" location="D:\sbt\cache\org.eclipse.jetty\jetty-server\ivy-8.1.17.v20150415.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.17.v20150415/jetty-server-8.1.17.v20150415.pom"/>
+				<caller organisation="com.wong" name="swexam$sources_2.11" conf="container" rev="8.1.17.v20150415" rev-constraint-default="8.1.17.v20150415" rev-constraint-dynamic="8.1.17.v20150415" callerrev="0.0.5"/>
+				<artifacts>
+					<artifact name="jetty-server" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="236850" time="0" location="D:\sbt\cache\org.eclipse.jetty\jetty-server\srcs\jetty-server-8.1.17.v20150415-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.17.v20150415/jetty-server-8.1.17.v20150415-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-http">
+			<revision name="8.1.17.v20150415" status="release" pubdate="20150429064032" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="7576" time="0" location="D:\sbt\cache\org.eclipse.jetty\jetty-http\ivy-8.1.17.v20150415.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.17.v20150415/jetty-http-8.1.17.v20150415.pom"/>
+				<caller organisation="com.wong" name="swexam$sources_2.11" conf="container" rev="8.1.17.v20150415" rev-constraint-default="8.1.17.v20150415" rev-constraint-dynamic="8.1.17.v20150415" callerrev="0.0.5"/>
+				<artifacts>
+					<artifact name="jetty-http" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="67392" time="0" location="D:\sbt\cache\org.eclipse.jetty\jetty-http\srcs\jetty-http-8.1.17.v20150415-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.17.v20150415/jetty-http-8.1.17.v20150415-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-io">
+			<revision name="8.1.17.v20150415" status="release" pubdate="20150429063943" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="7431" time="0" location="D:\sbt\cache\org.eclipse.jetty\jetty-io\ivy-8.1.17.v20150415.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.17.v20150415/jetty-io-8.1.17.v20150415.pom"/>
+				<caller organisation="com.wong" name="swexam$sources_2.11" conf="container" rev="8.1.17.v20150415" rev-constraint-default="8.1.17.v20150415" rev-constraint-dynamic="8.1.17.v20150415" callerrev="0.0.5"/>
+				<artifacts>
+					<artifact name="jetty-io" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="69459" time="0" location="D:\sbt\cache\org.eclipse.jetty\jetty-io\srcs\jetty-io-8.1.17.v20150415-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.17.v20150415/jetty-io-8.1.17.v20150415-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-continuation">
+			<revision name="8.1.17.v20150415" status="release" pubdate="20150429064120" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="7526" time="0" location="D:\sbt\cache\org.eclipse.jetty\jetty-continuation\ivy-8.1.17.v20150415.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.17.v20150415/jetty-continuation-8.1.17.v20150415.pom"/>
+				<caller organisation="com.wong" name="swexam$sources_2.11" conf="container" rev="8.1.17.v20150415" rev-constraint-default="8.1.17.v20150415" rev-constraint-dynamic="8.1.17.v20150415" callerrev="0.0.5"/>
+				<artifacts>
+					<artifact name="jetty-continuation" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="17551" time="0" location="D:\sbt\cache\org.eclipse.jetty\jetty-continuation\srcs\jetty-continuation-8.1.17.v20150415-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.17.v20150415/jetty-continuation-8.1.17.v20150415-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-xml">
+			<revision name="8.1.17.v20150415" status="release" pubdate="20150429064659" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="7445" time="0" location="D:\sbt\cache\org.eclipse.jetty\jetty-xml\ivy-8.1.17.v20150415.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/8.1.17.v20150415/jetty-xml-8.1.17.v20150415.pom"/>
+				<caller organisation="com.wong" name="swexam$sources_2.11" conf="container" rev="8.1.17.v20150415" rev-constraint-default="8.1.17.v20150415" rev-constraint-dynamic="8.1.17.v20150415" callerrev="0.0.5"/>
+				<artifacts>
+					<artifact name="jetty-xml" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="22539" time="0" location="D:\sbt\cache\org.eclipse.jetty\jetty-xml\srcs\jetty-xml-8.1.17.v20150415-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/8.1.17.v20150415/jetty-xml-8.1.17.v20150415-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-util">
+			<revision name="8.1.17.v20150415" status="release" pubdate="20150429063757" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="7811" time="0" location="D:\sbt\cache\org.eclipse.jetty\jetty-util\ivy-8.1.17.v20150415.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.17.v20150415/jetty-util-8.1.17.v20150415.pom"/>
+				<caller organisation="com.wong" name="swexam$sources_2.11" conf="container" rev="8.1.17.v20150415" rev-constraint-default="8.1.17.v20150415" rev-constraint-dynamic="8.1.17.v20150415" callerrev="0.0.5"/>
+				<artifacts>
+					<artifact name="jetty-util" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="196495" time="0" location="D:\sbt\cache\org.eclipse.jetty\jetty-util\srcs\jetty-util-8.1.17.v20150415-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.17.v20150415/jetty-util-8.1.17.v20150415-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty.orbit" name="javax.servlet">
+			<revision name="3.0.0.v201112011016" status="release" pubdate="20111208034915" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="13">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="3408" time="0" location="D:\sbt\cache\org.eclipse.jetty.orbit\javax.servlet\ivy-3.0.0.v201112011016.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.pom"/>
+				<caller organisation="com.wong" name="swexam$sources_2.11" conf="container" rev="3.0.0.v201112011016" rev-constraint-default="3.0.0.v201112011016" rev-constraint-dynamic="3.0.0.v201112011016" callerrev="0.0.5"/>
+				<artifacts>
+					<artifact name="javax.servlet" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="329333" time="0" location="D:\sbt\cache\org.eclipse.jetty.orbit\javax.servlet\srcs\javax.servlet-3.0.0.v201112011016-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

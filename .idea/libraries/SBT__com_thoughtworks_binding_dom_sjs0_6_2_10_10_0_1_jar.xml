@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: com.thoughtworks.binding:dom_sjs0.6_2.10:10.0.1:jar">
+    <CLASSES>
+      <root url="jar://D:/sbt/cache/com.thoughtworks.binding/dom_sjs0.6_2.10/jars/dom_sjs0.6_2.10-10.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/sbt/cache/com.thoughtworks.binding/dom_sjs0.6_2.10/srcs/dom_sjs0.6_2.10-10.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

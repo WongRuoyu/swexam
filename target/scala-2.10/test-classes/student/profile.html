@@ -1,0 +1,89 @@
+<!DOCTYPE html xmlns="http://www.w3.org/1999/xhtml" xmlns:lift="http://liftweb.net/">
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Student's Profile</title>
+</head>
+<body data-lift-content-id="main">
+<div id="main" data-lift="surround?with=default;at=content">
+
+    <div class="span12">
+        <h1><span id="username" class="label label-success" data-lift="UserSnippet.username">user's name</span>'s
+            profile
+        </h1>
+    </div>
+    <div id="profiles">
+        <ul class="nav nav-tabs" id="myTab">
+            <li><a href="#questions-hist" data-toggle="pill">Questions</a></li>
+            <li class="active"><a href="#exam-hist" data-toggle="pill">Exam history</a></li>
+            <li>
+                <a href="#exam-todos" data-toggle="pill">Exam Todo
+                       <span class="badge" id="number"
+                             data-lift="UserSnippet.numTodos">the number of exams
+                       </span>
+                </a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane fade" id="questions-hist">
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <td>Id</td>
+                        <td>Date</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr id="questions_details" data-lift="UserSnippet.questionHist">
+                        <td id="question_id">id of question</td>
+                        <td id="question_date">date of question</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="tab-pane fade" id="exam-hist">
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <td>Id</td>
+                        <td>Date</td>
+                        <td>Score</td>
+
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr id="exam_hists" data-lift="UserSnippet.examHist">
+                        <td id="exam_id">id of exam</td>
+                        <td id="exam_date">id of exam</td>
+                        <td id="exam_score">id of exam</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="tab-pane fade" id="exam-todos">
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <td>Name</td>
+                        <td>Creator</td>
+                        <td>Assignment Date</td>
+                        <td>TiemLeft</td>
+                        <td>Go</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr id="exam_todo" data-lift="UserSnippet.todoExam">
+                        <td id="exam_toname">name of exam</td>
+                        <td id="exam_creator">the creator of the assignment</td>
+                        <td id="exam_assigndate">expire of exam</td>
+                        <td><span id="exam_due" class="label label-danger">After:</span></td>
+                        <td id="exam_tolink"><a href="#">Go</a></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

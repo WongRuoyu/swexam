@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: net.liftmodules:machine_2.5_2.10:1.2:jar">
+    <CLASSES>
+      <root url="jar://D:/sbt/cache/net.liftmodules/machine_2.5_2.10/jars/machine_2.5_2.10-1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/sbt/cache/net.liftmodules/machine_2.5_2.10/srcs/machine_2.5_2.10-1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

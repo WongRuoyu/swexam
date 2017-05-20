@@ -1,0 +1,44 @@
+<!DOCTYPE html xmlns="http://www.w3.org/1999/xhtml" xmlns:lift="http://liftweb.net/">
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Exams</title>
+</head>
+<body data-lift-content-id="main">
+<div id="main" data-lift="surround?with=default;at=content">
+
+    <a href="/exam/create.html">Create a new exam</a>
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <td>name</td>
+            <td>descpt.</td>
+            <td>created At</td>
+            <td>start At</td>
+            <td>expired At</td>
+            <td>Edit</td>
+            <td>Detail</td>
+            <td>Publish</td>
+            <td>Assign</td>
+            <td>成绩单</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr id="all_exams" data-lift="ExamSnippet.allExams">
+            <td class="name">the name of the exam goes here</td>
+            <td class="descpt">the description of the exam goes here</td>
+            <td class="create_date">the created date of the exam goes here</td>
+            <td class="start_date">the date when the exam start</td>
+            <td class="expired_date">the expired date of the exam goes here</td>
+            <td class="edit">Edit this exampaper</td>
+            <td class="preview">the preview link</td>
+            <td class="publish">the publish button</td>
+            <td class="assign">the assign button</td>
+            <td class="exam_results">exam_results</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
